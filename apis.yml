@@ -1,8 +1,30 @@
 aid: memora-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/memora-health.png
 name: Memora Health
-description: Memora Health is a company surfaced as a portfolio company of general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Memora Health is a healthcare technology company (now part of Commure) that
+  provides an AI-powered platform for digitizing and automating complex care
+  programs. Its intelligent care enablement platform combines clinical workflow
+  automation, remote patient monitoring, symptom management, medication
+  adherence, and patient education to reduce clinician inbox burden and keep
+  enrolled patients engaged between visits. Memora serves health systems and
+  provider organizations across maternal care, surgical care, gastrointestinal
+  care, oncology, chronic care management, population health, and transitions of
+  care. The company operates as an enterprise B2B solution and does not publish
+  a public developer API, developer portal, or SDKs; integrations are delivered
+  through direct enterprise engagements. Backed by General Catalyst, Memora is
+  migrating onto the Commure platform at commure.com/engage.
 url: https://raw.githubusercontent.com/api-evangelist/memora-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +34,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Digital Health
+- Patient Engagement
+- Care Management
+- Remote Patient Monitoring
+- Clinical Workflow Automation
+- Artificial Intelligence
 apis: []
+common:
+- type: DomainSecurity
+  url: security/memora-health-domain-security.yml
+- type: Website
+  url: https://www.memorahealth.com
+- type: Blog
+  url: https://www.memorahealth.com/legacy/news-category/blog-posts
+- type: TermsOfService
+  url: https://www.memorahealth.com/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.memorahealth.com/legal/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
