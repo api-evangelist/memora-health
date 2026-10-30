@@ -64,6 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Memora Health is a company surfaced as a portfolio company of general-catalyst and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Memora Health is a healthcare technology company (now part of Commure) that provides an AI-powered platform for digitizing and automating complex care programs. Its intelligent care enablement platform combines clinical workflow automation, remote patient monitoring, symptom management, medication adherence, and patient education to reduce clinician inbox burden and keep enrolled patients engaged between visits. Memora serves health systems and provider organizations across maternal care, surgical care, gastrointestinal care, oncology, chronic care management, population health, and transitions of care. The company operates as an enterprise B2B solution and does not publish a public developer API, developer portal, or SDKs; integrations are delivered through direct enterprise engagements. Backed by General Catalyst, Memora is migrating onto the Commure platform at commure.com/engage.
 
-Backed by: general-catalyst
+**Areas:** Company · Healthcare · Digital Health · Patient Engagement · Care Management · Remote Patient Monitoring · Clinical Workflow Automation · Artificial Intelligence
+
+## Memora Health on APIs.io
+
+Everything profiled for Memora Health is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/memora-health/](https://apis.io/providers/memora-health/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Memora Health Domain Security](https://apis.io/security/memora-health/memora-health-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.memorahealth.com)
+- [Blog](https://www.memorahealth.com/legacy/news-category/blog-posts)
+- [Terms of service](https://www.memorahealth.com/legal/terms-of-service)
+- [Privacy policy](https://www.memorahealth.com/legal/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 8.8** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.3** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/memora-health/](https://apis.io/providers/memora-health/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Memora Health: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/memora-health/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
